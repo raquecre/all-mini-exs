@@ -1,3 +1,4 @@
+import ComponentAEx3 from "../components/ComponentAEx3/ComponentAEx3";
 import TextInfo from "../components/Navigation/TextInfo";
 import Title from "../components/Title";
 
@@ -12,6 +13,8 @@ const Exercise3 = (props) => {
         <div className="Exercise3" >
             <Title numberExercise={numberExercise} />
             <TextInfo textContent = {textContent}/>
+            <ComponentAEx3/>
+           
 
         </div>
     )
