@@ -44,7 +44,10 @@ img {
 .title {
   font-size: 60px;
   padding: 10px;
+  display: flex;
+  gap: 8px;
 }
+
 
 /* text Info */
 .textInfo {
@@ -76,4 +79,12 @@ button {
   box-shadow: 0px;
  
 
+}
+.operation{
+  display: flex;
+  gap: 8px;
+  
+}
+.operation p{
+  font-size: 30px;
 }

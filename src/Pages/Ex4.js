@@ -1,7 +1,8 @@
 import TextInfo from "../components/Navigation/TextInfo";
-import TittleEx4 from "../components/Navigation/Titles/titleEx4";
+import Title from "../components/Title";
 
 const Exercise4 = () => {
+    const numberExercise = <div>4</div>
     const textContent =
         <div className="textInfo">
             <p> Increment the number of like when you click on it</p>
@@ -9,7 +10,7 @@ const Exercise4 = () => {
 
     return (
         <div className="Exercise4" >
-            <TittleEx4 />
+            <Title numberExercise={numberExercise} />
             <TextInfo textContent={textContent} />
 
         </div>
