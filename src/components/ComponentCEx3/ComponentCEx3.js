@@ -1,12 +1,12 @@
 import Button from "../Navigation/Button/Button";
 
 const ComponentCEx3 = (props) => {
-    const { buttonX } = props;
+    const { count } = props;
     return (
         <div className="componentCEx3" >
             <h1>Component C</h1>
-			<p>X = 42 <strong> </strong> </p>
-            <Button />
+			<p>X = <strong> {count}  </strong> </p>
+            <Button count = {count} />
         </div>
     )
 }

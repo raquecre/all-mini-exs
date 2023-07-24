@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Exercise1 from './Pages/Ex1';
 import Exercise2 from './Pages/Ex2';

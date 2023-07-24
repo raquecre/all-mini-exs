@@ -10,6 +10,7 @@ html {
 
 
 /* Navigation */
+
 .Nav {
   display: flex;
   justify-content: space-around;
@@ -18,13 +19,17 @@ html {
   font-size: 17px;
 
 }
+a{
+color: rgba(255, 255, 255, 0.372);;
+}
 
 .numberExs {
   display: flex;
   align-items: center;
   gap: 15px;
-  color: rgba(255, 255, 255, 0.372);
+ 
   font-size: 25px;
+
 }
 
 .numberExs:hover {
