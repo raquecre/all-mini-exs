@@ -8,7 +8,7 @@ const DisplayPrimeNumbersEx4 = (props) => {
     const queryNumber = parseInt({ query })
     console.log(queryNumber)
 
-    const [result, setResult] = useState(0);
+    const [result] = useState(0);
 
     function isPrime(num) {
 
